@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Archivo', sans-serif;
+
+}
+
+nav {
+    background-color: rgb(93, 52, 6);
+
+}
+
+.navbar-item1 {
+    text-transform: uppercase;
+}
+
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+a:hover {
+    color: rgb(166, 163, 163);
+}
+
+.jumbotron {
+    color: #ffffff;
+    padding: 200px;
+    background-image: url(https://images.pexels.com/photos/3801349/pexels-photo-3801349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn {
+    background-color: brown;
+    color: #ffffff;
+    margin: 1px;
+}
+
+.container-cards {
+    padding: 100px;
+    
+    
+    
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+
+    
+}
