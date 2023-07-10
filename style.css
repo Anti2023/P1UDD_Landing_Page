@@ -16,6 +16,7 @@ nav {
 
 .navbar-item1 {
     text-transform: uppercase;
+    margin-left: 100px;
 }
 
 
@@ -29,6 +30,7 @@ a:hover {
     color: rgb(166, 163, 163);
 }
 
+
 .jumbotron {
     color: #ffffff;
     padding: 200px;
@@ -36,21 +38,25 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
+    
 
 .btn {
     background-color: brown;
     color: #ffffff;
-    margin: 1px;
+    margin-right: 100px;
 }
 
 .container-cards {
+    display:block;
+    justify-content: space-around;
     padding: 100px;
-    
-    
-    
+    background-color: burlywood;
+    background: linear-gradient(to bottom right, rgb(142, 68, 68), orange, pink, burlywood );
 }
 
+
 h2 {
+    color: #ffffff;
     text-align: center;
     font-weight: bold;
     margin-bottom: 100px;
@@ -59,6 +65,55 @@ h2 {
 .card {
     width: 300px;
     height: 400px;
-
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    font-style: italic;
     
 }
+
+div .col-aside {
+    color: #ffffff;
+    text-align: center;
+    padding: 100px;
+    margin: 20px;
+    background-image: url(assets/images/taller_calzado.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+footer {
+    background-color: burlywood;
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+
+.links {
+    color: #ffffff;
+    background-color: burlywood;
+    
+    
+}
+
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    
+  }
+
+  .copyright {
+    color: #ffffff;
+  }
+
+  h3 {
+    text-transform: uppercase;
+  }
+
+  .col-form{
+    background-color: orange;
+    width: 50%;
+  }
+
+ 
