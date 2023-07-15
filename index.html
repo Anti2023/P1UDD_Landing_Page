@@ -14,7 +14,6 @@
 </head>
 
 <body>
-
     <header>
         <nav class="navbar fixed-top">
             <div class="container-fluid">
@@ -46,7 +45,8 @@
 
                 </div>
                 <div>
-                    <button type="button" class="btn btn-md">Enviar</button>
+                    <button type="button" class="btn">Base class</button>
+                    <!-- <button type="button" class="btn btn-md">Enviar</button> -->
                 </div>
 
         </div>
@@ -55,7 +55,7 @@
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card h-100">
-                        <div class="circle">
+                        <div>
                             <img src="assets\images\zapato_beige.jpg" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body">
@@ -96,15 +96,16 @@
     <aside>
         <div class="container">
             <div class="row">
-                <div class="col-aside">
+                <div class="col-aside col-lg-4">
                     <h3>
                         Encuentra otros cursos aquí
                     </h3>
                     <p>“Mamá siempre decía que se puede decir mucho sobre una persona por sus zapatos. A dónde van, a
                         dónde estuvieron. Yo usé un montón de zapatos.” tom hanks</p>
-                    
+                    <button type="button" class="btn btn-secondary">Ir a</button>
+
                 </div>
-                <div class="col-form">
+                <div class="col-form col-lg-8">
                     <h3>
                         Contacto
                     </h3>
@@ -113,30 +114,69 @@
                             <div>
                                 <label for="name">Nombre</label>
                             </div>
-                            <input type="text" placeholder="Nombre">
+                            <input type="text" placeholder="Nombre" style="width: 100%;">
                             <div>
                             </div>
                             <div>
                                 <label for="mail">Correo</label>
                             </div>
-                            <input type="text" placeholder="Correo">
+                            <input type="text" placeholder="Correo" style="width: 100%;">
                         </div>
                         <div>
                             <div><label for="message">Deje su mensaje</label></div>
-                            <textarea name="Mensaje" id="" cols="30" rows="10"
-                                placeholder="Escriba su mensaje aquí"></textarea>
+                            <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Escriba su mensaje aquí"
+                                style="width: 100%;""></textarea>
                         </div>
-                        <button type="submit">Enviar</button>
+                        <button type=" button" class="btn btn-secondary">Enviar</button>
                     </form>
                 </div>
             </div>
 
     </aside>
-
-
+    
 
 
     <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="copyright">
+                        <h4>Marb</h4>
+                        <p>&copy; 2021</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <nav class="links">
+                        <ul>
+                            <li><a href="" class="outline">Inicio</a></li>
+                            <li><a href="" class="outline">Contacto</a></li>
+                            <li><a href="" class="outline">FAQ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-4">
+                    <nav class="links">
+                        <ul>
+                            <li><a href="" class="outline">Trabaja con nosotros</a></li>
+                            <li><a href="" class="outline">Mapa del sitio</a></li>
+                            <li><a href="" class="outline">Ayuda</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-4">
+                    <div class="profiles">
+                        <a href=""><em class="fab fa-twitter fa-2x"></em></a>
+                        <a href=""><em class="fab fa-instagram fa-2x"></em></a>
+                        <a href=""><em class="fab fa-facebook fa-2x"></em></a>
+                        <a href=""><em class="fab fa-whatsapp fa-2x"></em></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- <footer>
         <div class="cont-footer grid-3">
             <div class="copyright">
                 <h3>Marb</h3>
@@ -156,7 +196,7 @@
                 <a href=""><em class="fab fa-whatsapp fa-2x"></em></a>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
 
 
