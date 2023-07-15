@@ -79,6 +79,11 @@ h2 {
 
 }
 
+.img_card {
+    width: 250px;
+    height: 350px;
+}
+
 
 .col-aside {
     color: #ffffff;
@@ -92,6 +97,10 @@ h2 {
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
     border-radius: 4%;
 
+}
+
+.col-aside .btn {
+    align-items: center;
 }
 
 .col-form {
@@ -113,14 +122,17 @@ textarea {
     border-radius: 4px;
 }
 
-
-
 .links {
-    color: #ffffff;
     background-color: burlywood;
-
-
+    color: #ffffff;
 }
+
+
+
+.links ul {
+    text-decoration: none;
+}
+
 
 footer {
     background-color: burlywood;
@@ -145,3 +157,4 @@ h3 {
     text-transform: uppercase;
     text-align: center;
 }
+
